@@ -1,0 +1,5 @@
+heroku ps:scale web=0
+# I used that command to stop 
+Heroku so I could run the app on 
+"Local Host"
+
