@@ -3,3 +3,7 @@ heroku ps:scale web=0
 Heroku so I could run the app on 
 "Local Host"
 
+git add .  #do I need this? nope -a does it I think
+git commit -am "added static pages without about"
+git push -u origin static-pages
+
