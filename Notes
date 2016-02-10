@@ -5,5 +5,9 @@ Heroku so I could run the app on
 
 git add .  #do I need this? nope -a does it I think
 git commit -am "added static pages without about"
-git push -u origin static-pages
+git push -u origin static-pages..
 
+The distinction between the two types of 
+embedded Ruby is that <% ... %> executes the code 
+inside, while <%= ... %> executes it and inserts the 
+result into the template.) 
