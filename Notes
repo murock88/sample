@@ -29,11 +29,11 @@ CSS needed for this tutorial in a single file.
 In other words, the dot . in .center indicates that the rule styles a class. 
 (As we’ll see in Listing 5.7, the pound sign # identifies a rule to style a CSS id.)
 
-5.1.3 Partials
-
-
------^^^^^^^-------------
-
+*= require_tree .
+ensures that all CSS files in the app/assets/stylesheets directory 
+(including the tree subdirectories) are included into the application CSS. The line
+*= require_self
+specifies where in the loading sequence the CSS in application.css itself gets included.
 
 
 
