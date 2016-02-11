@@ -11,3 +11,11 @@ The distinction between the two types of
 embedded Ruby is that <% ... %> executes the code 
 inside, while <%= ... %> executes it and inserts the 
 result into the template.) 
+
+
+The main difference between classes and ids is that classes can be used multiple times on a page, but ids can be used only once.
+
+On the server, Rails associates images in the assets directory with the proper app/assets/images directory, 
+but as far as the browser is concerned all the assets look like they are in the same directory, 
+which allows them to be served faster.
+
