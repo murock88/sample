@@ -6,6 +6,8 @@ Heroku so I could run the app on
 git add .  #do I need this? nope -a does it I think
 git commit -am "added static pages without about"
 git push -u origin static-pages..
+git push origin master --force
+
 
 The distinction between the two types of 
 embedded Ruby is that <% ... %> executes the code 
@@ -18,4 +20,35 @@ The main difference between classes and ids is that classes can be used multiple
 On the server, Rails associates images in the assets directory with the proper app/assets/images directory, 
 but as far as the browser is concerned all the assets look like they are in the same directory, 
 which allows them to be served faster.
+
+Although rails generate automatically creates a separate CSS file for each controller, 
+it’s surprisingly hard to include 
+them all properly and in the right order, so for simplicity we’ll put all of the 
+CSS needed for this tutorial in a single file.
+
+In other words, the dot . in .center indicates that the rule styles a class. 
+(As we’ll see in Listing 5.7, the pound sign # identifies a rule to style a CSS id.)
+
+5.1.3 Partials
+
+
+-----^^^^^^^-------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
