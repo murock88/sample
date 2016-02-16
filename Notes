@@ -5,7 +5,7 @@ Heroku so I could run the app on
 
 git add .  #do I need this? nope -a does it I think
 git commit -am "added static pages without about"
-git push -u origin static-pages..
+git push -u origin master
 git push origin master --force
 
 
@@ -35,6 +35,8 @@ ensures that all CSS files in the app/assets/stylesheets directory
 *= require_self
 specifies where in the loading sequence the CSS in application.css itself gets included.
 
+
+6.14
 
 
 
