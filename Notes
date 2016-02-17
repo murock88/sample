@@ -36,7 +36,7 @@ ensures that all CSS files in the app/assets/stylesheets directory
 specifies where in the loading sequence the CSS in application.css itself gets included.
 
 
-6.14
+rails s -b $IP -p $PORT
 
 
 
