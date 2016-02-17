@@ -38,7 +38,7 @@ specifies where in the loading sequence the CSS in application.css itself gets i
 
 rails s -b $IP -p $PORT
 
-
+(If you want to run SSL on a custom domain, such as www.example.com, refer to Heroku’s page on SSL.)
 
 
 
